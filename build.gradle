@@ -62,7 +62,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.emc.ecs:smart-client-ecs:3.0.4'
+    implementation 'com.emc.ecs:smart-client-ecs:3.0.5'
     implementation 'com.sun.jersey.contribs:jersey-apache-client4:1.19.4'
     // NOTE: Jackson 2.13 dropped support for JAX-RS 1.x, and we use Jersey client 1.x, so we are stuck on Jackson 1.12.x
     // ref: https://github.com/FasterXML/jackson-jaxrs-providers/issues/90#issuecomment-1081368194
